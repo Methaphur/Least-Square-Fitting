@@ -1,18 +1,3 @@
-# To fit the straight line y = a + bx 
-# We have 2 equations ∑y = na + b∑x and ∑xy = a∑x + b∑x²
-# Solving these 2 equations will give values for a and b (intercept and slope of best fit)
-
-# Error Analysis 
-# Our expected model is y = mx + c
-# m and c parameters are extracted with or without some error in them as
-#  m +- ∆m and c +- ∆c
-
-
-# sig_y = sqrt(1/(N-2) ∑(yi - a - bx)^2)
-# Delta = N ∑x^2 - (∑x)^2
-# Standard deviation in slope = sig_y * sqrt(N/Delta)
-# Standard deviation in intercept = sig_y * sqrt(∑x^2/Delta)
-
 import numpy as np
 from tabulate import tabulate 
 from matplotlib import pyplot as plt
