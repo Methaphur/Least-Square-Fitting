@@ -86,7 +86,4 @@ Error in Intercept = 0.057368883795324725
 
 σy = 0.0951926415426897
 ∆ = 29247.13250000002
-
-![Example_fit](https://github.com/Methaphur/Least-Square-Fitting/assets/94229107/0ffdb4bb-b40f-49ec-ae1b-34a1895c5ea7)
-
 ```
