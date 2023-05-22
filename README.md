@@ -19,7 +19,7 @@ By solving these equations simultaneously, the program determines the values of 
 
 Errors in Least Square fit are given by
 
-$\sigma_y = \sqrt{\frac{1}{N-2} \sum_{i=1}^{N} (y_i - A - Bx_i)^2}$
+$\sigma_y = \sqrt{\frac{1}{N-2} \dot \sum_{i=1}^{N} (y_i - A - Bx_i)^2}$
 
 $\Delta = N \sum{x^2} - (\sum{x})^2$ 
 
